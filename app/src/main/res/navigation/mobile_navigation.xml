@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:clubs="http://schemas.android.com/clubs"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.shadyboshra2012.android.udacitytourguideappproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        clubs:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tourism"
+        android:name="com.shadyboshra2012.android.udacitytourguideappproject.ui.tourism.TourismFragment"
+        android:label="@string/menu_tourism"
+        clubs:layout="@layout/fragment_tourism" />
+
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="com.shadyboshra2012.android.udacitytourguideappproject.ui.restaurants.RestaurantsFragment"
+        android:label="@string/menu_restaurants"
+        clubs:layout="@layout/fragment_restaurants" />
+
+    <fragment
+        android:id="@+id/nav_clubs"
+        android:name="com.shadyboshra2012.android.udacitytourguideappproject.ui.clubs.ClubsFragment"
+        android:label="@string/menu_clubs"
+        clubs:layout="@layout/fragment_clubs" />
+
+    <fragment
+        android:id="@+id/nav_theaters"
+        android:name="com.shadyboshra2012.android.udacitytourguideappproject.ui.theaters.TheatersFragment"
+        android:label="@string/menu_theaters"
+        clubs:layout="@layout/fragment_theaters" />
+
+</navigation>

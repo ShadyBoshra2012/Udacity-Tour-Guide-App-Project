@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_home" type="drawable">drawable/ic_menu_home</item>
+    <item name="ic_menu_tourism" type="drawable">drawable/ic_menu_tourism</item>
+    <item name="ic_menu_restaurants" type="drawable">drawable/ic_menu_restaurants</item>
+    <item name="ic_menu_clubs" type="drawable">drawable/ic_menu_clubs</item>
+    <item name="ic_menu_theaters" type="drawable">drawable/ic_menu_theaters</item>
+</resources>
